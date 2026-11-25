@@ -1,0 +1,627 @@
+# Copyright (C) 2026 Glenn Lawrence Ramos
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: CarePilot 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/carepilot\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-24T16:31:42+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: carepilot\n"
+
+#. Plugin Name of the plugin
+#: carepilot.php
+#: admin/views/dashboard.php:23
+#: includes/class-admin.php:46
+#: includes/class-admin.php:47
+msgid "CarePilot"
+msgstr ""
+
+#. Description of the plugin
+#: carepilot.php
+msgid "Records finished WordPress, plugin, and theme updates, and keeps a log of maintenance work you add by hand."
+msgstr ""
+
+#. Author of the plugin
+#: carepilot.php
+msgid "Glenn Lawrence Ramos"
+msgstr ""
+
+#: admin/views/activity.php:21
+msgid "Maintenance activity"
+msgstr ""
+
+#: admin/views/activity.php:22
+msgid "Updates and changes CarePilot detected. A row is added when the work has finished, not when it is only started."
+msgstr ""
+
+#: admin/views/activity.php:33
+#: admin/views/activity.php:62
+msgid "Type"
+msgstr ""
+
+#: admin/views/activity.php:35
+msgid "All types"
+msgstr ""
+
+#: admin/views/activity.php:42
+#: admin/views/activity.php:64
+#: admin/views/dashboard.php:155
+#: admin/views/maintenance-logs.php:84
+#: admin/views/maintenance-logs.php:127
+#: admin/views/maintenance-logs.php:159
+#: includes/class-maintenance-logs.php:103
+msgid "Status"
+msgstr ""
+
+#: admin/views/activity.php:44
+#: admin/views/maintenance-logs.php:129
+msgid "Any status"
+msgstr ""
+
+#: admin/views/activity.php:50
+#: admin/views/maintenance-logs.php:135
+msgid "Filter"
+msgstr ""
+
+#: admin/views/activity.php:55
+msgid "No detected activity matches this view. New rows appear after the next finished update, activation, or theme change."
+msgstr ""
+
+#: admin/views/activity.php:61
+#: admin/views/dashboard.php:152
+msgid "Activity"
+msgstr ""
+
+#: admin/views/activity.php:63
+#: admin/views/dashboard.php:154
+msgid "Date"
+msgstr ""
+
+#: admin/views/activity.php:89
+msgid "Activity pages"
+msgstr ""
+
+#: admin/views/activity.php:99
+#: admin/views/maintenance-logs.php:205
+msgid "Previous"
+msgstr ""
+
+#: admin/views/activity.php:100
+#: admin/views/maintenance-logs.php:206
+msgid "Next"
+msgstr ""
+
+#: admin/views/dashboard.php:24
+msgid "A record of the maintenance finished on this site."
+msgstr ""
+
+#: admin/views/dashboard.php:26
+#: admin/views/dashboard.php:146
+#: admin/views/maintenance-logs.php:54
+#: admin/views/maintenance-logs.php:150
+msgid "Add maintenance log"
+msgstr ""
+
+#: admin/views/dashboard.php:33
+msgid "Maintenance totals"
+msgstr ""
+
+#: admin/views/dashboard.php:36
+msgid "Maintenance activities"
+msgstr ""
+
+#: admin/views/dashboard.php:37
+msgid "WordPress updates"
+msgstr ""
+
+#: admin/views/dashboard.php:38
+msgid "Plugin updates"
+msgstr ""
+
+#: admin/views/dashboard.php:39
+msgid "Theme updates"
+msgstr ""
+
+#: admin/views/dashboard.php:40
+msgid "Manual tasks"
+msgstr ""
+
+#: admin/views/dashboard.php:41
+msgid "Pending tasks"
+msgstr ""
+
+#: admin/views/dashboard.php:54
+msgid "Website"
+msgstr ""
+
+#: admin/views/dashboard.php:57
+msgid "Address"
+msgstr ""
+
+#: admin/views/dashboard.php:61
+msgid "WordPress"
+msgstr ""
+
+#: admin/views/dashboard.php:65
+msgid "PHP"
+msgstr ""
+
+#: admin/views/dashboard.php:69
+msgid "Active theme"
+msgstr ""
+
+#: admin/views/dashboard.php:73
+msgid "Plugins"
+msgstr ""
+
+#. translators: 1: active plugin count, 2: installed plugin count.
+#: admin/views/dashboard.php:79
+#, php-format
+msgid "%1$d active, %2$d installed"
+msgstr ""
+
+#: admin/views/dashboard.php:88
+msgid "HTTPS"
+msgstr ""
+
+#: admin/views/dashboard.php:89
+msgid "On"
+msgstr ""
+
+#: admin/views/dashboard.php:89
+msgid "Off"
+msgstr ""
+
+#: admin/views/dashboard.php:92
+msgid "Last maintenance"
+msgstr ""
+
+#: admin/views/dashboard.php:96
+msgid "Nothing recorded yet"
+msgstr ""
+
+#: admin/views/dashboard.php:104
+msgid "Last 30 days"
+msgstr ""
+
+#. translators: 1: date, 2: automatic count, 3: manual count.
+#: admin/views/dashboard.php:113
+#, php-format
+msgid "%1$s, %2$d automatic, %3$d manual"
+msgstr ""
+
+#: admin/views/dashboard.php:134
+msgid "Automatic"
+msgstr ""
+
+#: admin/views/dashboard.php:135
+msgid "Manual"
+msgstr ""
+
+#: admin/views/dashboard.php:142
+msgid "Recent activity"
+msgstr ""
+
+#: admin/views/dashboard.php:145
+msgid "Nothing has been recorded yet. CarePilot adds a line when a WordPress, plugin, or theme update finishes. Work WordPress cannot see, such as a content change or a layout fix, can be added as a manual log."
+msgstr ""
+
+#: admin/views/dashboard.php:153
+msgid "Source"
+msgstr ""
+
+#: admin/views/dashboard.php:165
+msgid "Manual task"
+msgstr ""
+
+#: admin/views/dashboard.php:165
+msgid "Detected"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:50
+msgid "Maintenance logs"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:51
+msgid "Work you record yourself. These entries stay separate from updates CarePilot detects."
+msgstr ""
+
+#: admin/views/maintenance-logs.php:71
+#: includes/class-maintenance-logs.php:100
+msgid "Title"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:76
+#: admin/views/maintenance-logs.php:118
+#: admin/views/maintenance-logs.php:157
+#: includes/class-maintenance-logs.php:102
+msgid "Category"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:92
+msgid "Date completed"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:97
+#: includes/class-maintenance-logs.php:101
+msgid "Description"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:101
+#: admin/views/maintenance-logs.php:173
+#: includes/class-maintenance-logs.php:106
+msgid "Internal notes"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:103
+msgid "Visible here only. Client reports do not include this field."
+msgstr ""
+
+#: admin/views/maintenance-logs.php:106
+msgid "Save changes"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:106
+msgid "Save log"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:107
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:114
+#: admin/views/maintenance-logs.php:115
+msgid "Search titles"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:120
+msgid "All categories"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:144
+msgid "Export CSV"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:149
+msgid "No manual logs match this view."
+msgstr ""
+
+#: admin/views/maintenance-logs.php:156
+msgid "Task"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:158
+#: includes/class-api.php:172
+#: includes/class-maintenance-logs.php:104
+msgid "Completed"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:160
+msgid "Actions"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:182
+msgid "Edit"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:183
+msgid "Delete this maintenance log?"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:187
+msgid "Delete"
+msgstr ""
+
+#: admin/views/maintenance-logs.php:195
+msgid "Log pages"
+msgstr ""
+
+#: admin/views/settings.php:18
+#: includes/class-admin.php:80
+#: includes/class-admin.php:81
+msgid "Settings"
+msgstr ""
+
+#: admin/views/settings.php:19
+msgid "These choices apply to this site only. CarePilot does not send them anywhere."
+msgstr ""
+
+#: admin/views/settings.php:31
+msgid "Activity tracking"
+msgstr ""
+
+#: admin/views/settings.php:34
+msgid "Record finished updates, activations, and theme changes"
+msgstr ""
+
+#: admin/views/settings.php:36
+msgid "Turning this off stops new detected rows. Rows already stored stay in place."
+msgstr ""
+
+#: admin/views/settings.php:39
+msgid "Do not record these"
+msgstr ""
+
+#: admin/views/settings.php:50
+msgid "How long to keep rows"
+msgstr ""
+
+#: admin/views/settings.php:52
+msgid "Delete detected activity and manual logs older than"
+msgstr ""
+
+#: admin/views/settings.php:54
+msgid "90 days"
+msgstr ""
+
+#: admin/views/settings.php:55
+msgid "180 days"
+msgstr ""
+
+#: admin/views/settings.php:56
+msgid "365 days"
+msgstr ""
+
+#: admin/views/settings.php:57
+msgid "Keep until I delete them"
+msgstr ""
+
+#: admin/views/settings.php:60
+msgid "A daily cleanup removes rows older than this. Zero keeps every row."
+msgstr ""
+
+#: admin/views/settings.php:64
+msgid "If this plugin is deleted"
+msgstr ""
+
+#: admin/views/settings.php:67
+msgid "Delete all CarePilot data if I delete this plugin"
+msgstr ""
+
+#: admin/views/settings.php:69
+msgid "Deactivating the plugin keeps the data. Leave this off unless you want the tables removed when the plugin is deleted."
+msgstr ""
+
+#: admin/views/settings.php:73
+msgid "Save settings"
+msgstr ""
+
+#. translators: 1: previous theme name, 2: new theme name.
+#: includes/class-activity-tracker.php:115
+#, php-format
+msgid "Switched the active theme from %1$s to %2$s."
+msgstr ""
+
+#. translators: 1: previous WordPress version, 2: new WordPress version.
+#: includes/class-activity-tracker.php:142
+#, php-format
+msgid "Updated WordPress from %1$s to %2$s."
+msgstr ""
+
+#. translators: %s: WordPress version.
+#: includes/class-activity-tracker.php:148
+#, php-format
+msgid "Updated WordPress to %s."
+msgstr ""
+
+#. translators: %s: WordPress version still installed.
+#: includes/class-activity-tracker.php:188
+#, php-format
+msgid "WordPress is still on %s. The update did not finish."
+msgstr ""
+
+#: includes/class-activity-tracker.php:191
+msgid "The WordPress update did not finish."
+msgstr ""
+
+#. translators: 1: plugin name, 2: plugin version.
+#: includes/class-activity-tracker.php:225
+#, php-format
+msgid "Activated %1$s %2$s."
+msgstr ""
+
+#. translators: 1: plugin name, 2: plugin version.
+#: includes/class-activity-tracker.php:227
+#, php-format
+msgid "Deactivated %1$s %2$s."
+msgstr ""
+
+#. translators: %s: plugin name.
+#: includes/class-activity-tracker.php:235
+#, php-format
+msgid "Activated %s."
+msgstr ""
+
+#. translators: %s: plugin name.
+#: includes/class-activity-tracker.php:237
+#, php-format
+msgid "Deactivated %s."
+msgstr ""
+
+#: includes/class-admin.php:56
+#: includes/class-admin.php:57
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-admin.php:64
+#: includes/class-admin.php:65
+msgid "Maintenance Activity"
+msgstr ""
+
+#: includes/class-admin.php:72
+#: includes/class-admin.php:73
+msgid "Maintenance Logs"
+msgstr ""
+
+#: includes/class-admin.php:115
+#: includes/class-admin.php:134
+#: includes/class-admin.php:191
+#: includes/class-admin.php:210
+#: includes/class-admin.php:259
+msgid "You do not have permission to view CarePilot."
+msgstr ""
+
+#: includes/class-admin.php:346
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-admin.php:352
+msgid "Maintenance log saved."
+msgstr ""
+
+#: includes/class-admin.php:353
+msgid "Maintenance log deleted."
+msgstr ""
+
+#: includes/class-api.php:137
+msgid "WordPress update"
+msgstr ""
+
+#: includes/class-api.php:138
+msgid "Plugin update"
+msgstr ""
+
+#: includes/class-api.php:139
+msgid "Plugin installation"
+msgstr ""
+
+#: includes/class-api.php:140
+msgid "Plugin activation"
+msgstr ""
+
+#: includes/class-api.php:141
+msgid "Plugin deactivation"
+msgstr ""
+
+#: includes/class-api.php:142
+msgid "Theme update"
+msgstr ""
+
+#: includes/class-api.php:143
+msgid "Theme installation"
+msgstr ""
+
+#: includes/class-api.php:144
+msgid "Theme change"
+msgstr ""
+
+#: includes/class-api.php:155
+msgid "Website maintenance"
+msgstr ""
+
+#: includes/class-api.php:156
+msgid "Performance optimization"
+msgstr ""
+
+#: includes/class-api.php:157
+msgid "Security"
+msgstr ""
+
+#: includes/class-api.php:158
+msgid "Content updates"
+msgstr ""
+
+#: includes/class-api.php:159
+msgid "Bug fixes"
+msgstr ""
+
+#: includes/class-api.php:160
+msgid "SEO"
+msgstr ""
+
+#: includes/class-api.php:161
+msgid "Other"
+msgstr ""
+
+#: includes/class-api.php:173
+msgid "Failed"
+msgstr ""
+
+#: includes/class-api.php:174
+msgid "Pending"
+msgstr ""
+
+#: includes/class-maintenance-logs.php:29
+msgid "Add a title for this maintenance task."
+msgstr ""
+
+#: includes/class-maintenance-logs.php:35
+msgid "Choose a category."
+msgstr ""
+
+#: includes/class-maintenance-logs.php:38
+msgid "Choose a status."
+msgstr ""
+
+#: includes/class-maintenance-logs.php:45
+msgid "Enter the completed date as YYYY-MM-DD."
+msgstr ""
+
+#: includes/class-maintenance-logs.php:49
+msgid "That completed date is not a real calendar day."
+msgstr ""
+
+#: includes/class-maintenance-logs.php:65
+#: includes/class-maintenance-logs.php:72
+msgid "That maintenance log could not be saved."
+msgstr ""
+
+#: includes/class-maintenance-logs.php:105
+msgid "Recorded"
+msgstr ""
+
+#. translators: 1: component name, 2: version still installed.
+#: includes/class-update-tracker.php:159
+#, php-format
+msgid "%1$s is still on %2$s. The update did not finish."
+msgstr ""
+
+#. translators: %s: component name.
+#: includes/class-update-tracker.php:165
+#, php-format
+msgid "%s did not finish installing."
+msgstr ""
+
+#. translators: 1: component name, 2: version.
+#: includes/class-update-tracker.php:172
+#, php-format
+msgid "Installed %1$s %2$s."
+msgstr ""
+
+#. translators: %s: component name.
+#: includes/class-update-tracker.php:178
+#, php-format
+msgid "Installed %s."
+msgstr ""
+
+#. translators: 1: component name, 2: previous version, 3: new version.
+#: includes/class-update-tracker.php:184
+#, php-format
+msgid "Updated %1$s from %2$s to %3$s."
+msgstr ""
+
+#. translators: 1: component name, 2: version.
+#: includes/class-update-tracker.php:192
+#, php-format
+msgid "Updated %1$s to %2$s."
+msgstr ""
+
+#. translators: %s: component name.
+#: includes/class-update-tracker.php:199
+#, php-format
+msgid "Updated %s."
+msgstr ""
+
+#: includes/class-update-tracker.php:303
+msgid "Theme"
+msgstr ""
+
+#: includes/class-update-tracker.php:306
+msgid "Plugin"
+msgstr ""

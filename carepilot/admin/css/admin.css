@@ -1,0 +1,366 @@
+.carepilot {
+	--cp-ink: #142226;
+	--cp-muted: #5c6b70;
+	--cp-line: #e4e9ea;
+	--cp-card: #ffffff;
+	--cp-teal: #0f6e6b;
+	--cp-teal-dark: #0b5553;
+	--cp-amber: #b45309;
+	--cp-green: #166534;
+	--cp-green-bg: #e8f6ee;
+	--cp-amber-bg: #fff4e5;
+	--cp-red: #9f1239;
+	--cp-red-bg: #fde8ee;
+	max-width: 1120px;
+	color: var(--cp-ink);
+}
+
+.carepilot h1,
+.carepilot h2 {
+	color: var(--cp-ink);
+	font-weight: 650;
+	letter-spacing: -0.02em;
+}
+
+.carepilot h2 {
+	margin: 0 0 14px;
+	font-size: 18px;
+}
+
+.carepilot-lead,
+.carepilot-meta,
+.carepilot-stat span,
+.carepilot-facts dt,
+.carepilot-form small {
+	color: var(--cp-muted);
+}
+
+.carepilot-header {
+	display: flex;
+	justify-content: space-between;
+	gap: 16px;
+	align-items: flex-end;
+	margin: 8px 0 20px;
+}
+
+.carepilot-header h1 {
+	margin: 0 0 6px;
+	padding: 0;
+}
+
+.carepilot-lead {
+	margin: 0;
+	max-width: 62ch;
+}
+
+.carepilot-stats {
+	display: grid;
+	grid-template-columns: repeat(6, minmax(0, 1fr));
+	gap: 12px;
+	margin-bottom: 16px;
+}
+
+.carepilot-stat,
+.carepilot-card,
+.carepilot-empty {
+	background: var(--cp-card);
+	border: 1px solid var(--cp-line);
+	border-radius: 14px;
+	box-shadow: 0 1px 2px rgba(20, 34, 38, 0.04);
+}
+
+.carepilot-stat {
+	padding: 14px 16px;
+}
+
+.carepilot-stat strong {
+	display: block;
+	font-size: 28px;
+	line-height: 1.1;
+}
+
+.carepilot-stat span,
+.carepilot-meta {
+	display: block;
+	margin-top: 4px;
+	font-size: 13px;
+}
+
+.carepilot-grid {
+	display: grid;
+	grid-template-columns: minmax(260px, 0.8fr) minmax(0, 1.4fr);
+	gap: 16px;
+	margin-bottom: 16px;
+}
+
+.carepilot-card {
+	padding: 18px 20px;
+	margin-bottom: 16px;
+}
+
+.carepilot-facts {
+	display: grid;
+	gap: 10px;
+	margin: 0;
+}
+
+.carepilot-facts div {
+	display: grid;
+	grid-template-columns: 140px minmax(0, 1fr);
+	gap: 8px;
+}
+
+.carepilot-facts dt,
+.carepilot-facts dd {
+	margin: 0;
+}
+
+.carepilot-chart {
+	display: flex;
+	align-items: flex-end;
+	gap: 3px;
+	height: 160px;
+	margin: 0;
+	padding: 0 0 8px;
+	list-style: none;
+	border-bottom: 1px solid var(--cp-line);
+}
+
+.carepilot-chart li {
+	flex: 1;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	min-width: 0;
+}
+
+.carepilot-stack {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 100%;
+	border-radius: 4px 4px 0 0;
+	overflow: hidden;
+	background: transparent;
+}
+
+.carepilot-stack .is-auto,
+.carepilot-legend .is-auto {
+	background: var(--cp-teal);
+}
+
+.carepilot-stack .is-manual,
+.carepilot-legend .is-manual {
+	background: var(--cp-amber);
+}
+
+.carepilot-chart-meta,
+.carepilot-legend {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.carepilot-chart-meta {
+	justify-content: space-between;
+	margin-top: 8px;
+	color: var(--cp-muted);
+	font-size: 12px;
+}
+
+.carepilot-legend i {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 2px;
+}
+
+.carepilot-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.carepilot-table th,
+.carepilot-table td {
+	padding: 12px 10px;
+	border-bottom: 1px solid var(--cp-line);
+	text-align: left;
+	vertical-align: top;
+}
+
+.carepilot-table th {
+	font-size: 12px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: var(--cp-muted);
+}
+
+.carepilot-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 999px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.carepilot-badge.is-completed {
+	background: var(--cp-green-bg);
+	color: var(--cp-green);
+}
+
+.carepilot-badge.is-pending {
+	background: var(--cp-amber-bg);
+	color: var(--cp-amber);
+}
+
+.carepilot-badge.is-failed {
+	background: var(--cp-red-bg);
+	color: var(--cp-red);
+}
+
+.carepilot-empty {
+	padding: 22px;
+}
+
+.carepilot-empty p {
+	margin-top: 0;
+	max-width: 68ch;
+}
+
+.carepilot-filters,
+.carepilot-export,
+.carepilot-form-actions,
+.carepilot-form-row,
+.carepilot-row-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	align-items: end;
+}
+
+.carepilot-filters,
+.carepilot-export {
+	margin-bottom: 12px;
+}
+
+.carepilot-filters label,
+.carepilot-form label,
+.carepilot-form legend {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	font-weight: 600;
+}
+
+.carepilot-form label.carepilot-check {
+	flex-direction: row;
+	align-items: center;
+	gap: 8px;
+	margin: 6px 0;
+}
+
+.carepilot-form fieldset {
+	border: 0;
+	margin: 16px 0 0;
+	padding: 0;
+}
+
+.carepilot-filters input,
+.carepilot-filters select,
+.carepilot-form input[type="text"],
+.carepilot-form input[type="date"],
+.carepilot-form input[type="search"],
+.carepilot-form select,
+.carepilot-form textarea {
+	min-width: 180px;
+	font-weight: 400;
+}
+
+.carepilot-form textarea {
+	width: 100%;
+	max-width: 720px;
+}
+
+.carepilot-form-actions {
+	margin-top: 8px;
+}
+
+.carepilot .button-primary {
+	background: var(--cp-teal);
+	border-color: var(--cp-teal-dark);
+}
+
+.carepilot .button-primary:hover,
+.carepilot .button-primary:focus {
+	background: var(--cp-teal-dark);
+	border-color: var(--cp-teal-dark);
+}
+
+.carepilot-row-actions form {
+	display: inline;
+	margin: 0;
+}
+
+.carepilot-row-actions button {
+	padding: 0;
+	border: 0;
+	background: none;
+	color: var(--cp-red);
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.carepilot-pager {
+	margin-top: 14px;
+}
+
+.carepilot-pager .page-numbers {
+	display: inline-block;
+	margin-right: 6px;
+	padding: 4px 8px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+.carepilot-pager .page-numbers.current {
+	background: var(--cp-teal);
+	color: #fff;
+}
+
+.carepilot-sr {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+.carepilot details {
+	margin-top: 6px;
+}
+
+@media (max-width: 960px) {
+	.carepilot-stats,
+	.carepilot-grid,
+	.carepilot-facts div {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (max-width: 640px) {
+	.carepilot-header,
+	.carepilot-stats,
+	.carepilot-grid,
+	.carepilot-facts div {
+		display: block;
+	}
+
+	.carepilot-stat,
+	.carepilot-facts div {
+		margin-bottom: 10px;
+	}
+}
